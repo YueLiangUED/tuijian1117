@@ -1,0 +1,206 @@
+@charset "utf-8";
+*{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; 
+}
+html,body {
+    width: 100%;
+}
+.view-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+img {
+    display: block;
+}
+.banner img {
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: 10;
+}
+.title-text {
+    margin-top: 0.1rem;
+    line-height: 1.3em;
+    padding: 0 0.7rem;
+    font-size: 0.28rem;
+    color: #6c7cff;
+    letter-spacing: 1px;
+    text-indent: 2em;
+}
+.title-icons {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+    padding: 0 0.6rem;
+    z-index: 10;
+}
+.title-icons-item {
+    flex-shrink: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title-icons-item i {
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-bottom: 0.4rem;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 0.8rem #d8eaff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 0.7rem 0.7rem;
+}
+.title-icons-item i.icon_02 {
+    background-image: url("../images/icon_02.png");
+    }
+.title-icons-item i.icon_03 {
+    background-image: url("../images/icon_03.png");
+    }
+.title-icons-item i.icon_04 {
+    background-image: url("../images/icon_04.png");
+    }
+.title-icons-item i.icon_05 {
+    background-image: url("../images/icon_05.png");
+    
+}
+.title-icons-item span {
+    font-size: 0.28rem;
+    color: #666666;
+    line-height: 1.2em;
+}
+.content-h2 {
+    width: 4.37rem;
+    height: 0.77rem;
+    line-height: 0.77rem;
+    letter-spacing: 4px;
+    margin: 0 auto 0.3rem;
+    font-weight: 900;
+    font-size: 0.6rem;
+    color: #6c7cff;
+    text-align: center;
+    text-shadow: 0 0 3px #d9ebff;
+    background: url("../images/icon_07.png") no-repeat center;
+    background-size: 100%;
+    vertical-align: baseline;
+    font-family: PingFangSC-Semibold, sans-serif;
+}
+.content-h3 {
+    width: 7.19rem;
+    height: 1.74rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background: url("../images/icon_06.png") no-repeat center;
+    background-size: 100%;
+}
+.content-h3-title {
+    width: 1.1rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    font-size: 0.3rem;
+    text-align: center;
+    
+    z-index: 2;
+}
+.content-h3-text {
+    padding-top: 0.4rem;
+    width: 6.3rem;
+    height: 1.74rem;
+    margin-left: -0.7rem;
+    padding-left: 1.2rem;
+    line-height: 0.6rem;
+    font-size: 0.32rem;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.step-title {
+    margin-bottom: 5px;
+    padding-left: 0.7rem;
+    font-size: 0.36rem;
+    color: #666;
+    font-weight: 900;
+}
+.step-text {
+    margin-bottom: 0.25rem;
+    padding: 0 0.7rem;
+    font-size: 0.28rem;
+    color: #666;
+    line-height: 1.5em;
+}
+.content-img {
+    margin-bottom: 0.5rem;
+}
+.content-img img {
+    display: block;
+    width: 4.7rem;
+    margin: 0 auto;
+    box-shadow: 1px 1px 15px rgba(128, 140, 250, 0.3), -1px -1px 15px rgba(128, 140, 250, 0.5);
+}
+.footer {
+    height: 1.1rem;
+    margin-bottom: 0.3rem;
+    line-height: 1.1rem;
+    font-size: 0.44rem;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+    background: linear-gradient(left, #6c7cff, #d1adff);
+    background: -webkit-linear-gradient(left, #6c7cff, #d1adff);;
+}
+.quan {
+    position: absolute;
+    width: 2.73rem;
+    height: 2.73rem;
+    background: url("../images/icon_01.png") no-repeat center;
+    background-size: 100%;
+}
+.quan.quan_01 {
+    top: 1.65rem;
+    right: -2.05rem;
+    z-index: 5;
+}
+.quan.quan_02 {
+    top: 6.55rem;
+    right: -1.6rem;
+    z-index: 5;
+}
+.quan.quan_03 {
+    top: 15.2rem;
+    left: -1.6rem;
+}
+.quan.quan_04 {
+    top: 25.8rem;
+    right: -1.6rem;
+}
+.quan.quan_05 {
+    top: 32rem;
+    left: -1.6rem;
+}
+.quan.quan_06 {
+    top: 39rem;
+    right: -1.6rem;
+}
+.quan.quan_07 {
+    top: 46rem;
+    left: -1.6rem;
+}
+.quan.quan_08 {
+    top: 52rem;
+    right: -1.6rem;
+}
+.quan.quan_09 {
+    top: 61rem;
+    left: -1.6rem;
+}
+.quan.quan_10 {
+    top: 69rem;
+    right: -1.6rem;
+}
